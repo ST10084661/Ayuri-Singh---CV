@@ -1,0 +1,144 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12px;
+    max-width: 960px;
+    margin: auto;
+    height: 100vh;
+   }
+
+.container {
+    width: auto;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: PaleGoldenRod;
+  }
+  
+.title{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: PaleGoldenRod;
+}
+
+  h1 {
+    
+    text-transform: uppercase;
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: -3px;
+    transition: 700ms ease;
+    font-variation-settings: "wght" 311;
+    margin-bottom: 0.8rem;
+    
+    outline: none;
+    text-align: center;
+  }
+  
+  h1:hover {
+    font-variation-settings: "wght" 582; 
+    letter-spacing: 1px;
+  }
+
+   h2 {
+  font-size: 1.5em;
+  font-family: "Times New Roman", Times, serif;
+    padding-bottom: 1em;
+   }
+   
+   
+   
+   h3 {
+    font-size: 1em;
+   padding-bottom: 1em;
+   }
+   
+   
+   
+   main {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin-top: 3em;
+   }
+   header {
+    text-align: center;
+    margin: auto 2em;
+   }
+   
+   
+   
+   section {
+    margin: auto 1em 4em 2em;
+   }
+   
+   
+   
+   i {
+    margin-right: .5em;
+   }
+   
+   
+   
+   p {
+    margin: .2em auto;
+    font-size: 1.2em;
+  line-height: 150%;
+  text-align: center;
+  color: black;
+  letter-spacing: .5px;
+   }
+   
+   .center{
+    text-align: center;
+   }
+   
+   hr {
+    border: none;
+    background-color: lightgray;
+    height: 1px;
+   }
+   
+hr.style-five {
+    border: 0;
+    height: 0; 
+    box-shadow: 0 0 20px 1px rgb(122, 124, 128);
+}
+hr.style-five:after {  /* Not really supposed to work, but does */
+    content: "\00a0";  /* Prevent margin collapse */
+}
+   
+   
+   h1, h2, h3 {
+    font-weight: 100;
+    margin-bottom: 0;
+   }
+   #mainLeft {
+    border-right: 1px solid lightgray;
+   }
+ 
+   body {
+	background: linear-gradient(-45deg, #ec6fcd93, #bc75eb85, #6ac7e9e1, #9be0ecd2);
+	background-size: 400% 400%;
+	animation: gradient 50s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
